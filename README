@@ -1,11 +1,12 @@
 Abstract:
   A program that when presented with an image of a hand holding fingers up
   tells how many fingers are held up.
-  We will try to use convolutional neural net.
+  We will try to use NN and CNN.
 
 Goals:
   1) Read images, calculate derivative make samples. | DONE :-)
-  3) Train neural net.                               |
+  2) Train basic neural net.
+  3) Train CNN                                       |
 
 TODO: read image
   1) read from camera.

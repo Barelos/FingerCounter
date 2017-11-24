@@ -55,7 +55,9 @@ def main():
         gray = np.flip(gray, axis = 1)
         gray = fourier_der(gray)
         if save:
-            plt.imsave(folder + str(count) + ".jpg", gray, cmap='gray')
+            n,m = gray.shape
+            smaller = cv2.resize(gray, (0,0), fx=0.1, fy=0.1)
+            plt.imsave(folder + str(count) + ".jpg", smaller, cmap='gray')
             count+= 1
         # Display the resulting frame
         cv2.imshow('frame',gray)
