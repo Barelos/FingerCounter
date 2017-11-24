@@ -1,16 +1,15 @@
 Abstract:
   A program that when presented with an image of a hand holding fingers up
-  tells how many fingers are held up 2 ways.
-  Neural net and tree classifier.
+  tells how many fingers are held up.
+  We will try to use convolutional neural net.
 
 Goals:
-  1) Read images, calculate derivative and perform DFT.
-  2) Make tree classifier.
-  3) Train neural net.
+  1) Read images, calculate derivative make samples. | DONE :-)
+  3) Train neural net.                               |
 
 TODO: read image
   1) read from camera.
   2) threshold into 2 colors.
   3) calculate derivative (simple no fancy stuff).
   4) calculate DFT (to get read of noise from movement in frame).
-  5) make files with samples.
+  5) make framework to create data set.
